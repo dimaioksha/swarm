@@ -2,7 +2,7 @@ from swarm import Agent
 
 
 def process_refund(item_id, reason="NOT SPECIFIED"):
-    """Refund an item. Refund an item. Make sure you have the item_id of the form item_... Ask for user confirmation before processing the refund."""
+    """Refund an item. Make sure you have the item_id of the form item_... Ask for user confirmation before processing the refund."""
     print(f"[mock] Refunding item {item_id} because {reason}...")
     return "Success!"
 
